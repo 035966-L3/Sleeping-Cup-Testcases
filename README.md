@@ -6,7 +6,7 @@ This one: <http://8.136.99.126/>
 
 ## Why can't I find XXX's data?
 
-We store the data of only the problems with the prefix 'Contest' here.
+We store the data of only the problems with the prefix 'Contest' here. Subjective problems are ignored because there is really nothing to store.
 
 ## What's the usage of `gen.cpp`?
 
