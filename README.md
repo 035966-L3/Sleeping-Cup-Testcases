@@ -4,7 +4,11 @@
 
 This one: <http://8.136.99.126/>
 
-## Why can't I find XXX's data?
+## Are there any other useful links?
+
+Certainly: <https://github.com/035966-L3/Sleeping-Cup-Ratings>
+
+## Why can't I find the data of some problem?
 
 We store the data of only the problems with the prefix 'Contest' here. Subjective problems are ignored because there is really nothing to store.
 
