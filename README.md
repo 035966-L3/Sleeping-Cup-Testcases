@@ -8,9 +8,9 @@ This one: <http://8.136.99.126/>
 
 Certainly: <https://github.com/035966-L3/Sleeping-Cup-Ratings>
 
-## Why can't I find the data of some problem?
+## Why can't I find the data of problem X?
 
-We store the data of only the problems with the prefix 'Contest' here. Subjective problems are ignored because there is really nothing to store.
+We only store the data of the problems from our contests. Subjective problems are ignored because there is really nothing to store.
 
 ## What's the usage of `gen.cpp`?
 
