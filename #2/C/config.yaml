@@ -1,5 +1,5 @@
 type: default
-time: 5000ms
+time: 3000ms
 memory: 512MB
 filename: honey2
 subtasks:
