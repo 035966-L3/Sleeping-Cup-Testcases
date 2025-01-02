@@ -1,5 +1,4 @@
 type: default
-time: 2000ms
 memory: 8MB
 filename: median
 subtasks:
