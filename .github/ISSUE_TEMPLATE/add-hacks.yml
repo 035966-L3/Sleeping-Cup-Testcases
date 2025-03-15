@@ -1,6 +1,5 @@
 name: Add hacks
-description: Use this in case of finding wrong solutions being accepted and wanting to hack
-  it.
+description: Use this in case of finding wrong solutions being accepted and wanting to hack it.
 body:
   - type: input
     attributes:
