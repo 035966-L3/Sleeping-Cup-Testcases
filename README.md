@@ -14,4 +14,4 @@ We only store the data of the problems from our contests. Subjective and objecti
 
 ## What's the usage of `gen.cpp`?
 
-You can use `gen.cpp` to generate data. The input of generators are given in the `gen_input.txt` file. If you have any problems on the usage of `gen.cpp`, you can contact us. Note that some testcases (especially the first ones) are handmade. A `README.md` file (instead of `gen.cpp`) will be provided if the data it generated requires manual modification.
+You can use `gen.cpp` to generate data. The input of generators are given in the `gen_input.txt` file. If you have any problems on the usage of `gen.cpp`, you can contact us. Note that some testcases (especially the first ones) are handmade. A `README.md` file (instead of `gen.cpp`) will be provided if the data requires manual modification.
