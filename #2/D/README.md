@@ -1,6 +1,6 @@
 ### General instruction
 
-You need to adjust the data using `adjust.cpp` after generation.
+You need to adjust the inputs using `adjust.cpp` after generation.
 
 ### Usage (Windows)
 
