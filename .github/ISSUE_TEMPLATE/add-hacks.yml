@@ -40,4 +40,5 @@ body:
         	return 0;
         }
         ```
-    required: true
+    validations:
+      required: true
