@@ -43,6 +43,9 @@ int man()
 		case 1:{int l=n/2;r=rds(1,d/l);break;}
 		default:{r=rd(8);break;}
 	};
+	int f;
+	cin>>f;
+	if(f!=-1) r=f;
 	cout<<m<<' '<<n<<' '<<d<<' '<<r<<endl;
 	for(int i=1;i<=m;i++)
 	{
