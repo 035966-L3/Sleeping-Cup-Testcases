@@ -2,13 +2,13 @@
 
 All the testcases in this problem are generated manually.
 
-### Tests 1-17
+### For Tests 1-17
 
 These are samples.
 
-### Tests 18-44
+### For Tests 18-44
 
-We first generated two identical texts and then modified one of them by hand.
+We firstly generated two identical texts and then modified one of them by hand.
 
 There are three types of identical texts:
 
