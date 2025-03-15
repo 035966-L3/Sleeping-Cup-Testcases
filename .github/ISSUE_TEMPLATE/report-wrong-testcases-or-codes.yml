@@ -1,0 +1,21 @@
+name: Report wrong testcases or codes
+description: Use this in case of finding wrong testcases or codes.
+body:
+  - type: input
+    attributes:
+      label: Problem ID
+      placeholder: 'e.g. 4D'
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Wrong Testcase(s)/Code(s)
+      placeholder: 'e.g. 14.in/gen_14.cpp'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Details
+      placeholder: 'Example: The value T reached 1001, which violated the constraints!'
+    validations:
+      required: true
