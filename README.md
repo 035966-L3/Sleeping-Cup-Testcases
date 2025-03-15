@@ -10,8 +10,16 @@ Certainly: <https://github.com/035966-L3/Sleeping-Cup-Ratings>
 
 ## Why can't I find the data of problem X?
 
-We only store the data of the problems from our contests. Subjective and objective problems are ignored because there is really nothing to store.
+We only store the data of the problems from our official contests. Subjective and objective problems are ignored because there is really nothing to store.
 
-## What's the usage of `gen.cpp`?
+## How to use generators?
 
-You can use `gen.cpp` to generate data. The input of generators are given in the `gen_input.txt` file. If you have any problems on the usage of `gen.cpp`, you can contact us. Note that some testcases (especially the first ones) are handmade. A `README.md` file (instead of `gen.cpp`) will be provided if the data requires manual modification.
+The names of generators will include the substring `gen`. You just need to compile these programs and run using the input given in the corresponding text file. Here are some examples:
+
+- `gen.cpp` <- `gen_input.txt`
+- `gen_default.cpp` <- `gen_input_default.txt`
+- `gen_14.cpp` <- (this usually requires no input)
+
+You can also contact us for any questions on the use of generators. However, you should check the `README.md` file and read it (if you found it) first. 
+
+Note that some testcases (especially the first ones as samples) are handmade.

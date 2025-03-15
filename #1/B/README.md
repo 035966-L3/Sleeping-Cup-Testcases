@@ -1,4 +1,12 @@
-Tests 18-44 are generated manually.
+### General instruction
+
+All the testcases in this problem are generated manually.
+
+### Tests 1-17
+
+These are samples.
+
+### Tests 18-44
 
 We first generated two identical texts and then modified one of them by hand.
 
