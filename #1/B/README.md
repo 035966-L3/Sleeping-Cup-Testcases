@@ -2,11 +2,11 @@
 
 All the testcases in this problem are generated manually.
 
-### For Tests 1-17
+### Tests 1-17
 
 These are samples.
 
-### For Tests 18-44
+### Tests 18-44
 
 We firstly generated two identical texts and then modified one of them by hand.
 
