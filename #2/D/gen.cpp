@@ -25,7 +25,8 @@ void gen1()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<ec<<' ';
+			cout<<ec;
+			if(j!=k) cout<<' ';
 			ec++;
 		}
 		cout<<endl;
@@ -38,7 +39,8 @@ void gen2()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<ec<<' ';
+			cout<<ec;
+			if(j!=k) cout<<' ';
 			ec++;
 		}
 		cout<<endl;
@@ -48,7 +50,8 @@ void gen2()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<ec<<' ';
+			cout<<ec;
+			if(j!=k) cout<<' ';
 			ec++;
 		}
 		cout<<endl;
@@ -61,7 +64,8 @@ void gen3()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<ec<<' ';
+			cout<<ec;
+			if(j!=k) cout<<' ';
 			ec++;
 		}
 		cout<<endl;
@@ -69,7 +73,8 @@ void gen3()
 	ec=0;
 	for(int j=1;j<=k;j++)
 	{
-		cout<<ec<<' ';
+		cout<<ec;
+		if(j!=k) cout<<' ';
 		ec++;
 	}
 	cout<<endl;
@@ -81,7 +86,8 @@ void gen4()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<ec<<' ';
+			cout<<ec;
+			if(j!=k) cout<<' ';
 			ec+=k*k/4;
 			if(ec>=k*k) ec-=k*k,ec++;
 		}
@@ -111,7 +117,10 @@ void gen5()
 	for(int i=1;i<=k;i++)
 	{
 		for(int j=1;j<=k;j++)
-			cout<<u[i][j]<<' ';
+		{
+			cout<<u[i][j];
+			if(j!=k) cout<<' ';
+		}
 		cout<<endl;
 	}
 }
@@ -125,7 +134,8 @@ void sh()
 	{
 		for(int j=1;j<=k;j++)
 		{
-			cout<<v[ec]<<' ';
+			cout<<v[ec];
+			if(j!=k) cout<<' ';
 			ec++;
 		}
 		cout<<endl;
