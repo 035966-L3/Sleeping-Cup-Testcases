@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int u[262][262],v[62512];
 const int dx[4]={0,1,0,-1},dy[4]={1,0,-1,0};

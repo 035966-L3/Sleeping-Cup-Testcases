@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 char x[1012][1012];
 int T,k,tc,m1,m2;
