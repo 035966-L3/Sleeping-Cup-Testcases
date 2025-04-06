@@ -4,8 +4,8 @@ unsigned int n, x;
 inline unsigned int get()
 {
 	x ^= x << 7;
-    x ^= x >> 23;
-    x ^= x << 12;
+	x ^= x >> 23;
+	x ^= x << 12;
 	return x;
 }
 unsigned int f[120012];
