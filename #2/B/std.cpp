@@ -10,7 +10,7 @@ int main()
 	cin >> T;
 	while (T--)
 	{
-		int k, sx, sy;
+		int k, sx = 0, sy = 0;
 		cin >> k;
 		for (int i = 1; i <= k; i++)
 			for (int j = 1; j <= k; j++)
