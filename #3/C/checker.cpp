@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 	bool k1 = false, k2 = false;
 	if ((xx - x0) * (xx - x0) + (yy - y0) * (yy - y0) <= 100) k1 = true;
 	if ((rr - r0) * (rr - r0) <= 100) k2 = true;
-	quitp(0.5 * k1 + 0.5 * k2, "Center difference is %.3llf (%s) / Radius difference is %.3llf (%s)",
+	quitp(0.5 * k1 + 0.5 * k2, "Center difference is %.3Lf (%s) / Radius difference is %.3Lf (%s)",
 			sqrtl((xx - x0) * (xx - x0) + (yy - y0) * (yy - y0)), (k1 ? "Correct" : "Incorrect"),
 			fabsl(rr - r0), (k2 ? "Correct" : "Incorrect"));
 	return 0;
