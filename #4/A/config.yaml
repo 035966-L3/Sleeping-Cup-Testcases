@@ -1,0 +1,17 @@
+type: default
+memory: 512MB
+filename: football
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: min
+    cases:
+      - input: 1.in
+        output: 1.out
+      - input: 2.in
+        output: 2.out
+      - input: 3.in
+        output: 3.out
+      - input: 4.in
+        output: 4.out
