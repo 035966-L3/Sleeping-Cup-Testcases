@@ -1,0 +1,21 @@
+type: objective
+answers:
+  '1':
+    - '624'
+    - 20
+  '2':
+    '$2^{19937}-1$': 20
+    '$2^{19937} - 1$': 20
+    '$2^19937-1$': 20
+    '2^{19937} - 1': 20
+  '3':
+    'C++26': 20
+    'c++26': 20
+  '4':
+    - 'CF1812H'
+    - 20
+  '5':
+    'shuffle(v.begin(),v.end(),default_random_engine(time(0)));': 20
+    'std::shuffle(v.begin(),v.end(),std::default_random_engine(time(0)));': 20
+    'std::shuffle(v.begin(),v.end(),default_random_engine(time(0)));': 20
+    'shuffle(v.begin(),v.end(),default_random_engine(time(0)))': 20
