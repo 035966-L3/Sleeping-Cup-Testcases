@@ -1,0 +1,20 @@
+Hello, there! This is the first sample.
+Note that you should NOT ignore spaces or endlines.
+This is Line 3. The letter 'L' is on Column 9. Have a count!
+This line (Line 4) is somewhat special because... 
+... there is a space at the end of the line.
+
+
+
+Do you see anything? Yeah, Lines 6-8 are empty!
+    And ... this line starts with 4 spaces!
+            
+Is Line 10 empty? No! There are 12 spaces.
+The following 5 lines consist of a space each.
+ 
+ 
+ 
+ 
+ 
+The last lines (Lines 20-21) is also empty. Good luck!
+
