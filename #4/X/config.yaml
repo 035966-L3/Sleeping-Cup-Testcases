@@ -1,5 +1,5 @@
 type: default
-time: 3000ms
+time: 2000ms
 memory: 512MB
 filename: factorial
 subtasks:
