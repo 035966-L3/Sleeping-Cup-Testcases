@@ -1,0 +1,11 @@
+type: default
+memory: 512MB
+filename: inversion
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: 1.in
+        output: 1.out

@@ -1,0 +1,13 @@
+type: submit_answer
+subType: single
+filename: soda.txt
+checker_type: testlib
+checker: checker.cpp
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: /dev/null
+        output: /dev/null
