@@ -217,7 +217,7 @@ int solve()
 	if (check(1, 3, n)) return 0;
 	if (check(2, 3, n)) return 0;
 	// The two statements below will be never executed.
-	puts("I hate computation geometry!!!");
+	puts("I hate computational geometry!!!");
 	return 0;
 }
 signed main()
