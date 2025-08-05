@@ -115,10 +115,10 @@ bool check(int x, int y, int n)
 	{
 		if (i == x || i == y || i == xx || i == yy) continue;
 		if (in[xx] - in[i] == curlines)
-        {
-            lines++;
-            continue;
-        }
+		{
+			lines++;
+			continue;
+		}
 		P cur = simplify(normal(xx, yy, i));
 		if (!mp2.count(cur)) mp2[cur] = 1;
 		else mp2[cur]++;

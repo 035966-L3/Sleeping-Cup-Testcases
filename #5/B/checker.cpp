@@ -3,7 +3,7 @@
 using namespace std;
 int main(int argc, char** argv)
 {
-    registerTestlibCmd(argc, argv);
+	registerTestlibCmd(argc, argv);
 	int T = inf.readInt();
 	for (int t = 1; t <= T; t++)
 	{

@@ -3,7 +3,7 @@
 using namespace std;
 int main(int argc, char** argv)
 {
-    registerTestlibCmd(argc, argv);
+	registerTestlibCmd(argc, argv);
 	long double x0 = ouf.readReal(0, 1000), y0 = ouf.readReal(0, 1000), r0 = ouf.readReal(0, 1000);
 	long double xx = ans.readReal(0, 1000), yy = ans.readReal(0, 1000), rr = ans.readReal(0, 1000);
 	bool k1 = false, k2 = false;

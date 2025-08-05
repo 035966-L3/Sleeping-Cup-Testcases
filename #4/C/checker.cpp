@@ -5,7 +5,7 @@ const int N = 1e6 + 12;
 bool a[N], b[N], c[N];
 int main(int argc, char** argv)
 {
-    registerTestlibCmd(argc, argv);
+	registerTestlibCmd(argc, argv);
 	int n = inf.readInt();
 	inf.readChar();
 	int k = inf.readInt();

@@ -2180,11 +2180,11 @@ void init(int key, int value)
 }
 int power(int a, int b, int p)
 {
-    if (b == 1) return a;
-    int x = power(a, b >> 1, p);
-    x = 1ll * x * x % p;
-    if (b & 1) x = 1ll * x * a % p;
-    return x;
+	if (b == 1) return a;
+	int x = power(a, b >> 1, p);
+	x = 1ll * x * x % p;
+	if (b & 1) x = 1ll * x * a % p;
+	return x;
 }
 bool check(int n, int h, int a)
 {

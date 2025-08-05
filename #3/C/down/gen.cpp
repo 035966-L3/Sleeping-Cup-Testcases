@@ -23,13 +23,13 @@ int rd(int m)
 }
 signed main(signed argc, char** argv)
 {
-    srand(time(0));
-    int x1 = rd(1000001), x2 = rd(1000001), x3 = rd(1000001);
-    while (abs(x2 - x1) < 200000 || x3 + abs(x2 - x1) > 1000000 || x3 - abs(x2 - x1) < 0 || (x2 - x1) % 2 != 0)
-    	x1 = rd(1000001), x2 = rd(1000001), x3 = rd(1000001);
-    if (x1 < x2) swap(x1, x2);
-    freopen(argv[2], "wb", stdout);
-    cout << fixed << setprecision(3);
+	srand(time(0));
+	int x1 = rd(1000001), x2 = rd(1000001), x3 = rd(1000001);
+	while (abs(x2 - x1) < 200000 || x3 + abs(x2 - x1) > 1000000 || x3 - abs(x2 - x1) < 0 || (x2 - x1) % 2 != 0)
+		x1 = rd(1000001), x2 = rd(1000001), x3 = rd(1000001);
+	if (x1 < x2) swap(x1, x2);
+	freopen(argv[2], "wb", stdout);
+	cout << fixed << setprecision(3);
 	cout << (x1 + x2) / 2 / 1000.0 << ' ' << x3 / 1000.0 << endl;
 	cout << (x1 - x2) / 2 / 1000.0 << endl;
 	fclose(stdout);
