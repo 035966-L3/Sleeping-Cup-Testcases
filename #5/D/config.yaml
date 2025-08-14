@@ -17,3 +17,5 @@ subtasks:
         output: 4.out
       - input: 5.in
         output: 5.out
+      - input: 6.in
+        output: 6.out
