@@ -1,0 +1,13 @@
+type: submit_answer
+subType: single
+filename: cover.txt
+checker_type: testlib
+checker: checker.cpp
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: 1.in
+        output: 1.out

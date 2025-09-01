@@ -1,0 +1,12 @@
+type: submit_answer
+checker_type: testlib
+checker: checker.cpp
+subtasks:
+  - memory: 512MB
+    score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: /dev/null
+        output: answer.txt

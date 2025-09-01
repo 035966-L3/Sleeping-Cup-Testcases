@@ -1,0 +1,10 @@
+type: submit_answer
+memory: 512MB
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: /dev/null
+        output: answer.txt
