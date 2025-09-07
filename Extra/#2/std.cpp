@@ -18,79 +18,79 @@ int ec = 0;
 int now = 0;
 struct U
 {
-    unsigned short a[D];
-    unsigned short ll[D];
-    unsigned short rr[D];
-    int l[D];
-    int r[D];
-    int roots[C];
-    int ts;
-    int st;
-    void init(int n)
-    {
-        ts = n;
-        st = n;
-        for (int i = 1; i <= n; i++)
-            rr[i] = (1 << P) - 1;
-        for (int i = 1; i <= n; i++)
-            roots[i] = i;
-    }
-    void expand(int b)
-    {
-        if (ll[b] == rr[b]) return;
-        if (l[b] == 0)
-        {
-            ts++;
-            a[ts] = 0;
-            ll[ts] = ll[b];
-            rr[ts] = (ll[b] + rr[b]) >> 1;
-            l[ts] = 0;
-            r[ts] = 0;
-            l[b] = ts;
-        }
-        if (r[b] == 0)
-        {
-            ts++;
-            a[ts] = 0;
-            ll[ts] = ((ll[b] + rr[b]) >> 1) + 1;
-            rr[ts] = rr[b];
-            l[ts] = 0;
-            r[ts] = 0;
-            r[b] = ts;
-        }
-    }
-    bool create(int x, int b)
-    {
-        if (ll[b] == x && rr[b] == x) return true;
-        expand(b);
-        int lmid = (ll[b] + rr[b]) >> 1;
-        int rmid = lmid + 1;
-        if (x <= lmid) return create(x, l[b]);
-        if (x >= rmid) return create(x, r[b]);
-    }
-    bool add(int x, int y, int b, int c)
-    {
-        if (b != c) a[b] += a[c] + y;
-        if (b == c) a[b] += y;
-        if (ll[b] == x && rr[b] == x) return true;
-        int lmid = (ll[b] + rr[b]) >> 1;
-        int rmid = lmid + 1;
-        if (x <= lmid) r[b] = r[c];
-        if (x >= rmid) l[b] = l[c];
-        expand(b);
-        if (x <= lmid) return add(x, y, l[b], l[c]);
-        if (x >= rmid) return add(x, y, r[b], r[c]);
-    }
-    int get(int l, int r, int b)
-    {
-        if (!b) return 0;
-        if (l == ll[b] && r == rr[b]) return a[b];
-        int lmid = (ll[b] + rr[b]) >> 1;
-        int rmid = lmid + 1;
-        if (r <= lmid) return get(l, r, this -> l[b]);
-        if (l >= rmid) return get(l, r, this -> r[b]);
-        return get(l, lmid, this -> l[b]) + get(rmid, r, this -> r[b]);
-    }
+	unsigned short a[D];
+	unsigned short ll[D];
+	unsigned short rr[D];
+	int l[D];
+	int r[D];
+	int roots[C];
+	int ts;
+	int st;
+	void init(int n)
+	{
+		ts = n;
+		st = n;
+		for (int i = 1; i <= n; i++)
+			rr[i] = (1 << P) - 1;
+		for (int i = 1; i <= n; i++)
+			roots[i] = i;
+	}
+	void expand(int b)
+	{
+		if (ll[b] == rr[b]) return;
+		if (l[b] == 0)
+		{
+			ts++;
+			a[ts] = 0;
+			ll[ts] = ll[b];
+			rr[ts] = (ll[b] + rr[b]) >> 1;
+			l[ts] = 0;
+			r[ts] = 0;
+			l[b] = ts;
+		}
+		if (r[b] == 0)
+		{
+			ts++;
+			a[ts] = 0;
+			ll[ts] = ((ll[b] + rr[b]) >> 1) + 1;
+			rr[ts] = rr[b];
+			l[ts] = 0;
+			r[ts] = 0;
+			r[b] = ts;
+		}
+	}
+	bool create(int x, int b)
+	{
+		if (ll[b] == x && rr[b] == x) return true;
+		expand(b);
+		int lmid = (ll[b] + rr[b]) >> 1;
+		int rmid = lmid + 1;
+		if (x <= lmid) return create(x, l[b]);
+		if (x >= rmid) return create(x, r[b]);
+	}
+	bool add(int x, int y, int b, int c)
+	{
+		if (b != c) a[b] += a[c] + y;
+		if (b == c) a[b] += y;
+		if (ll[b] == x && rr[b] == x) return true;
+		int lmid = (ll[b] + rr[b]) >> 1;
+		int rmid = lmid + 1;
+		if (x <= lmid) r[b] = r[c];
+		if (x >= rmid) l[b] = l[c];
+		expand(b);
+		if (x <= lmid) return add(x, y, l[b], l[c]);
+		if (x >= rmid) return add(x, y, r[b], r[c]);
+	}
+	int get(int l, int r, int b)
+	{
+		if (!b) return 0;
+		if (l == ll[b] && r == rr[b]) return a[b];
+		int lmid = (ll[b] + rr[b]) >> 1;
+		int rmid = lmid + 1;
+		if (r <= lmid) return get(l, r, this -> l[b]);
+		if (l >= rmid) return get(l, r, this -> r[b]);
+		return get(l, lmid, this -> l[b]) + get(rmid, r, this -> r[b]);
+	}
 };
 U t;
 struct T

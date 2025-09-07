@@ -2,9 +2,9 @@
 
 generate()
 {
-    local i=$1
-    ./gen "$i.in" "$i.out"
-    sleep 1
+	local i=$1
+	./gen "$i.in" "$i.out"
+	sleep 1
 }
 
 g++ gen.cpp -o gen

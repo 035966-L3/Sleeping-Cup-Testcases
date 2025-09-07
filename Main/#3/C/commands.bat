@@ -4,6 +4,6 @@ del gen.exe
 goto :EOF
 
 :generate
-    gen.exe %1.in %1.out
-    timeout /T 1 /nobreak > nul
+	gen.exe %1.in %1.out
+	timeout /T 1 /nobreak > nul
 exit /b
