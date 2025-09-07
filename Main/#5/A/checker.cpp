@@ -38,8 +38,8 @@ int main(int argc, char** argv)
 	registerTestlibCmd(argc, argv);
 	int n = ouf.readInt(0, 25);
 	int m = ouf.readInt(n, 2 * n);
-	if (n > 7) quitf(_wa, /* "Your answer is worse than the jury!" */ "Wrong answer!");
-	while(m--)
+	if (n > 7) quitf(_wa, "Your answer is worse than the jury!");
+	while (m--)
 	{
 		int code = ouf.readInt(0, max((int) machine.size(), 1));
 		if (code <= 1) machine.push(ratio(code));
@@ -62,6 +62,6 @@ int main(int argc, char** argv)
 		if (machine.top() == ratio(18, 25)) quitf(_ok, "Accepted!");
 		machine.pop();
 	}
-	quitf(_wa, /* "You didn't get the expected product!" */ "Wrong answer!");
+	quitf(_wa, "You didn't get the expected product!");
 	return 0;
 }

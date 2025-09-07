@@ -4,21 +4,12 @@ using namespace std;
 int rd(int m)
 {
 	int x = 0;
-	x += rand();
-	x *= RAND_MAX;
-	x %= m;
-	x += rand();
-	x *= RAND_MAX;
-	x %= m;
-	x += rand();
-	x *= RAND_MAX;
-	x %= m;
-	x += rand();
-	x *= RAND_MAX;
-	x %= m;
-	x += rand();
-	x *= RAND_MAX;
-	x %= m;
+	for (int i = 1; i <= 5; i++)
+	{
+		x += rand();
+		x *= RAND_MAX;
+		x %= m;
+	}
 	return x;
 }
 signed main(signed argc, char** argv)
