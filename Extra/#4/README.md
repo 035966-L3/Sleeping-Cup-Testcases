@@ -8,7 +8,7 @@ This is the hard version of problem D (in Main/#4), which is not used in the con
 
 ### General instruction
 
-The generators `gen_12.cpp`, `gen_13.cpp` and `gen_extra.cpp` generate rather slowly, so you should be patient.
+The generators `gen_more.cpp` and `gen_extra.cpp` generate rather slowly, so you should be patient.
 
 (In fact, it is highly recommended to copy the corresponding testcases directly as they generate fixed testcases.)
 
@@ -17,9 +17,7 @@ Below are the details:
 | Generator | Expected execution time |
 | :-: | :-: |
 | `gen_default.cpp` | less than a second |
-| `gen_12.cpp` | one or two hours |
-| `gen_13.cpp` | several minutes |
-| `gen_14.cpp` | less than a second |
+| `gen_more.cpp` | one or two hours |
 | `gen_extra.cpp` | several minutes |
 | `gen_20.cpp` | less than a second |
 
