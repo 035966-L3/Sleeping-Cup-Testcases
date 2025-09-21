@@ -1,0 +1,45 @@
+type: objective
+answers:
+  '1':
+    - '9'
+    - 8
+  '2':
+    - '194'
+    - 8
+  '3':
+    1+\sqrt{14}: 8
+    \sqrt{14}+1: 8
+  '4':
+    - \dfrac{1}{4}
+    - 8
+  '5':
+    - '18'
+    - 8
+  '6':
+    \dfrac{5}{33}/\dfrac{7}{33}/\dfrac{3}{11}: 8
+    \dfrac{5}{33}/\dfrac{3}{11}/\dfrac{7}{33}: 8
+    \dfrac{7}{33}/\dfrac{3}{11}/\dfrac{5}{33}: 8
+    \dfrac{7}{33}/\dfrac{5}{33}/\dfrac{3}{11}: 8
+    \dfrac{3}{11}/\dfrac{5}{33}/\dfrac{7}{33}: 8
+    \dfrac{3}{11}/\dfrac{7}{33}/\dfrac{5}{33}: 8
+    \dfrac{5}{33},\dfrac{7}{33},\dfrac{3}{11}: 8
+    \dfrac{5}{33},\dfrac{3}{11},\dfrac{7}{33}: 8
+    \dfrac{7}{33},\dfrac{3}{11},\dfrac{5}{33}: 8
+    \dfrac{7}{33},\dfrac{5}{33},\dfrac{3}{11}: 8
+    \dfrac{3}{11},\dfrac{5}{33},\dfrac{7}{33}: 8
+    \dfrac{3}{11},\dfrac{7}{33},\dfrac{5}{33}: 8
+  '7':
+    \{1\}\cup(\sqrt{5},\sqrt{2}+1]: 8
+    (\sqrt{5},\sqrt{2}+1]\cup\{1\}: 8
+  '8':
+    - '1944'
+    - 8
+  '9':
+    (\dfrac{1}{2},\pm\sqrt{2}): 16
+    (\dfrac{1}{2},\sqrt{2})/(\dfrac{1}{2},-\sqrt{2}): 16
+    (\dfrac{1}{2},-\sqrt{2})/(\dfrac{1}{2},\sqrt{2}): 16
+    (\dfrac{1}{2},\sqrt{2}),(\dfrac{1}{2},-\sqrt{2}): 16
+    (\dfrac{1}{2},-\sqrt{2}),(\dfrac{1}{2},\sqrt{2}): 16
+  '10':
+    \dfrac{\sqrt{6}}{3}: 20
+    \dfrac{1}{3}\sqrt{6}: 20
