@@ -1,6 +1,5 @@
 type: interactive
-time: 2000ms
-memory: 64MB
+memory: 128MB
 interactor: checker.cpp
 subtasks:
   - score: 0
