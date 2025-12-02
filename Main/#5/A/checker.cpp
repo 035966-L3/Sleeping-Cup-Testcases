@@ -55,8 +55,6 @@ int main(int argc, char** argv)
 				machine.push(sum / code);
 		}
 	}
-	ouf.readLine();
-	string label = ouf.readLine();
 	while (!machine.empty())
 	{
 		if (machine.top() == ratio(18, 25)) quitf(_ok, "Accepted!");
