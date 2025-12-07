@@ -8,7 +8,7 @@
 
 **本题的 IO 量很大，因此请注意 IO 效率。**
 
-**你可以使用以下代码，并用 `read()` 读入一个非负整数，用 `writeline(x)` 输出一行一个非负整数 $\bm x$：**
+**你可以使用以下代码（使用时需要包含 `<cstdio>` 或 `<bits/stdc++.h>` 头文件），并用 `read()` 读入一个非负整数，用 `writeline(x)` 输出一行一个非负整数 $\bm x$：**
 
 ```cpp
 inline unsigned read()
