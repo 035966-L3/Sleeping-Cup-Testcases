@@ -38,7 +38,7 @@ int main(int argc, char** argv)
 	registerTestlibCmd(argc, argv);
 	int n = ouf.readInt(0, 25);
 	int m = ouf.readInt(n, 2 * n);
-	if (n > 7) quitf(_wa, "Your answer is worse than the jury!");
+	if (n > 7) quitf(_wa, "Your answer was worse than the jury!");
 	while (m--)
 	{
 		int code = ouf.readInt(0, max((int) machine.size(), 1));
