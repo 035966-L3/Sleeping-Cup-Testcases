@@ -1,4 +1,4 @@
-type: submit_answer
+type: default
 memory: 512MB
 subtasks:
   - score: 100
@@ -6,5 +6,5 @@ subtasks:
     id: 1
     type: sum
     cases:
-      - input: /dev/null
-        output: answer.txt
+      - input: 1.in
+        output: 1.out

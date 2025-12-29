@@ -1,7 +1,3 @@
-### About this contest
-
-There is only one problem in the contest.
-
 ### About this problem
 
 This is the hard version of problem D (in Main/#4), which is not used in the contest.
