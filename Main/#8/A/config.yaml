@@ -1,0 +1,11 @@
+type: submit_answer
+subType: single
+filename: equations.txt
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: sum
+    cases:
+      - input: /dev/null
+        output: answer.txt
